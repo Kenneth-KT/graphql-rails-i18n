@@ -4,6 +4,8 @@ Ruby on Rails i18n integration plugin for [graphql-ruby](https://github.com/rmos
 
 As of 31 Jan 2019, this gem requires custom directive feature from the pre-release version (1.9.pre2) of graphql-ruby.
 
+As soon as the version 1.9 is finalized, we will upgrade our gemspec to match that version of graphql-ruby.
+
 ## Installation
 
 Install from RubyGems by adding it to your `Gemfile`, then bundling.
