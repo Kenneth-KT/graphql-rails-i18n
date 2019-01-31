@@ -21,7 +21,6 @@ describe GraphQL::Schema::Directive::Locale do
     directive(GraphQL::Schema::Directive::Locale)
 
     query(Query)
-    # only supported by the interpreter
     use GraphQL::Execution::Interpreter
   end
 

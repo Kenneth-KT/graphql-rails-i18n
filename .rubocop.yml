@@ -1,0 +1,13 @@
+Naming/FileName:
+  Exclude:
+    - 'lib/graphql-rails-i18n.rb'
+
+Metrics/LineLength:
+  Max: 100
+
+Metrics/BlockLength:
+  Exclude:
+    - 'spec/**/*_spec.rb'
+
+Style/Documentation:
+  Enabled: false

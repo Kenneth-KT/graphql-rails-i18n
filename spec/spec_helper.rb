@@ -4,5 +4,5 @@ require 'rubygems'
 require 'bundler'
 Bundler.require
 
-require "graphql"
-require "graphql-rails-i18n"
+require 'graphql'
+require 'graphql-rails-i18n'
