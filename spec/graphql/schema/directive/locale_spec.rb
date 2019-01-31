@@ -46,13 +46,14 @@ describe GraphQL::Schema::Directive::Locale do
 
   context 'when @locale directive is not used' do
     it 'does not call I18n.with_locale' do
+      expect(I18n).not_to receive(:with_locale)
+
       str = '{
         result: localizedHello
       }'
 
       res = LocaleSchema.execute(str)
 
-      expect(I18n).not_to receive(:with_locale)
       expect(res['data']['result']).to eq('Hello in default language')
     end
   end
