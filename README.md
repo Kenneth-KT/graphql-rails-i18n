@@ -2,9 +2,9 @@
 
 Ruby on Rails i18n integration plugin for [graphql-ruby](https://github.com/rmosolgo/graphql-ruby), inspired by [graphql-i18n npm library](https://github.com/Canner/graphql-i18n).
 
-As of 31 Jan 2019, this gem requires custom directive feature from the pre-release version (1.9.pre2) of graphql-ruby.
+As of 4 Feb 2019, this gem requires custom directive feature from the pre-release version (1.9.pre3) of graphql-ruby.
 
-As soon as the version 1.9 is finalized, we will upgrade our gemspec to match that version of graphql-ruby.
+As soon as the custom directive feature is released in stable version, we will upgrade our gemspec to match that version of graphql-ruby.
 
 ## Installation
 
