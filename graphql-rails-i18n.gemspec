@@ -19,6 +19,6 @@ Gem::Specification.new do |s|
   s.add_development_dependency 'rubocop', '~> 0.49'
   s.add_development_dependency 'rspec', '~> 3.0'
 
-  s.add_dependency 'graphql', '~> 1.9'
+  s.add_dependency 'graphql', '>= 1.9'
   s.add_dependency 'rails', '>= 2.2.0'
 end
